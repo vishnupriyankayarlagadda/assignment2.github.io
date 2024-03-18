@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>String Manipulation</h1>
+        <div id="vowelConsonant">
+            <input type="text" id="inputString" placeholder="Enter a string...">
+            <button onclick="countVowelsAndConsonants()">Vowel&Consonant Count</button>
+            <p id="vowelCount"></p>
+            <p id="consonantCount"></p>
+        </div>
+    </div>
+    <div class="container1">
+        <h1>Palindrome Function</h1>
+        <div id="palindrome">
+            <input type="number" id="inputPalindrome" placeholder="Enter a series of numbers...">
+            <button onclick="checkPalindrome()">Check Palindrome</button>
+            <p id="palindromeResult"></p>
+        </div>
+ </div>
+ <div class="container2">
+    <h1>Tip Calculator</h1>
+        <div id="tipCalculator">
+            <input type="number" id="subtotal" placeholder="Enter subtotal...">
+            <input type="number" id="tipPercentage" placeholder="Enter tip percentage...">
+            <button onclick="calculateTotal()">Calculate Total</button>
+            <p id="totalAmount"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

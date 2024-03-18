@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.ibb.co/tQXXdxD/BGimage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+}
+
+.container {
+    width: 70%;
+    height:28%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    left: 50%;
+    top:15%;
+    position: absolute;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.18);
+}
+.container *{
+    font-family: "DM Sans",sans-serif;
+    outline:none;
+    font-size: 16px;
+}
+
+.container1 {
+    width: 70%;
+    height:28%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    left: 50%;
+    top:50%;
+    position: absolute;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.18);
+}
+.container1 *{
+    font-family: "DM Sans",sans-serif;
+    outline:none;
+    font-size: 16px;
+}
+
+.container2 {
+    width: 70%;
+    height:28%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    left: 50%;
+    top:85%;
+    position: absolute;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.18);
+}
+.container2 *{
+    font-family: "DM Sans",sans-serif;
+    outline:none;
+    font-size: 16px;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input{
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+    padding: 10px 15px ;
+    font-weight: 400;
+    margin-top:10px;
+
+}
+input:focus{
+    padding:10px 15px;
+    border-bottom: 2px solid black;
+}
+
+button {
+    width: 25%;
+    float:bottom;
+    padding: 20px 3px;
+    background-color: rgb(9, 148, 203);
+    border: none;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+
+button:hover {
+    background-color: rgb(0, 75, 105);
+}
+
+p {
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+}
+
